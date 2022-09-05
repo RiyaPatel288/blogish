@@ -2,25 +2,29 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import logo192 from '../../images/logo192.png'
+import Container from 'react-bootstrap/Container';
+
 
 
 const Grid = () => {
     return (
-        <>
-            <Card border="dark" style={{ width: '18rem',marginTop:"70px",marginLeft:"100px" }} >
-                <Card.Header><img src={logo192} /></Card.Header>
-                <Card.Body>
-                    <Card.Title>Dark Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                </Card.Body>
+        <Row xs={1} md={2} className="g-4">
+        {Array.from({ length: 2 }).map((_, idx) => (
+          <Col>
+            <Card style={{height:"350px"}}>
+              <Card.Img variant="top" src={logo192} style={{height:"200px",marginBottom:"25px"}} />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </Card.Text>
+              </Card.Body>
             </Card>
-            <br />
-            
-
-        </>
+          </Col>
+        ))}
+      </Row>
     );
 }
 
