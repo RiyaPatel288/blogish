@@ -8,8 +8,11 @@
 .inputemail{
     width: 450px;
     margin-top: 10px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
 .btnsubmit{
     margin-top: 10px;
+}
+.tagclass{
+    margin-top: 25px;
 }
