@@ -28,6 +28,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "start-sw": "http-server ./build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -47,5 +48,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyaPatel288/blogish.git"
+  },
+  "keywords": [
+    "riya"
+  ],
+  "author": "riya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiyaPatel288/blogish/issues"
+  },
+  "homepage": "https://github.com/RiyaPatel288/blogish#readme"
 }
