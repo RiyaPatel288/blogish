@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/RiyaPatel288/blogish/static/css/main.720df9dd.css",
+    "main.js": "/RiyaPatel288/blogish/static/js/main.db60c9f9.js",
+    "static/js/787.1d241aae.chunk.js": "/RiyaPatel288/blogish/static/js/787.1d241aae.chunk.js",
+    "service-worker.js": "/RiyaPatel288/blogish/service-worker.js",
+    "static/media/logo_blogish.png": "/RiyaPatel288/blogish/static/media/logo_blogish.a413b9d2e4b4116bbf9c.png",
+    "index.html": "/RiyaPatel288/blogish/index.html",
+    "main.720df9dd.css.map": "/RiyaPatel288/blogish/static/css/main.720df9dd.css.map",
+    "main.db60c9f9.js.map": "/RiyaPatel288/blogish/static/js/main.db60c9f9.js.map",
+    "787.1d241aae.chunk.js.map": "/RiyaPatel288/blogish/static/js/787.1d241aae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.720df9dd.css",
+    "static/js/main.db60c9f9.js"
+  ]
+}
